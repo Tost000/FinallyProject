@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  font-family: "Shantell Sans", cursive;
+}
+
+body {
+  margin: 0px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.initial {
+  position: absolute;
+  top: -7.45px;
+  left: 50px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.45px;
+  text-align: center;
+  color: #bbff2c;
+}
+
+.nav_btn {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  background-color: #37014b;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  border: 5;
+  color: white;
+  text-decoration: none;
+  margin: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-image: url(assets/Group214.svg);
+  background-color: #8726e5;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 0px 0px;
+}
+
+.preview-logo {
+  width: 675px;
+  height: 187.5px;
+  background-image: url(assets/Group180.svg);
+  background-size: 675px 187.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 96.82px;
+}
+
+.details-btn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20.99px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  background: #bbff2c;
+  width: 200px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
