@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <header>
+    <header>
+      <nav>
         <h2 class="initial">TC</h2>
-        <nav>
-          <a class="nav_btn" href="#">Главная</a>
-          <a class="nav_btn" href="#">Обо мне</a>
-          <a class="nav_btn" href="#">Проекты</a>
-        </nav>
-        <!-- в js делать кнопку активной если нажато -->
-      </header>
+        <a class="nav_btn active" href="#" id="nav_btn_main">Главная</a>
+        <a class="nav_btn" href="#project" id="nav_btn_project">Проекты</a>
+        <a class="nav_btn" href="#About_me" id="nav_btn_about">Обо мне</a>
+      </nav>
+      <!-- в js делать кнопку активной если нажато -->
+    </header>
+    <main>
       <section class="preview">
         <div class="preview-logo">
           <h1 class="name">Тимур</h1>
@@ -30,11 +30,14 @@
         <a href="#details" class="details-btn">Подробнее</a>
         <div class="fix"></div>
       </section>
-      <section class="project">
+      <section class="project" id="project">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <a class="Project_slide" target="_blank" href="https://tost000.github.io/test/"
+              <a
+                class="Project_slide"
+                target="_blank"
+                href="https://tost000.github.io/test/"
                 ><img
                   class="Project_slide"
                   src="assets/sec1.png"
@@ -42,7 +45,10 @@
               /></a>
             </div>
             <div class="swiper-slide">
-              <a class="Project_slide target="_blank"" href="https://tost000.github.io/mars/"
+              <a
+                class="Project_slide"
+                target="_blank"
+                href="https://tost000.github.io/mars/"
                 ><img
                   class="Project_slide"
                   src="assets/sec2.png"
@@ -50,7 +56,10 @@
               /></a>
             </div>
             <div class="swiper-slide">
-              <a class="Project_slide" target="_blank" href="https://tost000.github.io/miro/"
+              <a
+                class="Project_slide"
+                target="_blank"
+                href="https://tost000.github.io/miro/"
                 ><img
                   class="Project_slide"
                   src="assets/sec3.png"
@@ -59,7 +68,9 @@
             </div>
             <div class="swiper-slide">
               <a
-                class="Project_slide" target="_blank" href="https://tost000.github.io/meme_store/"
+                class="Project_slide"
+                target="_blank"
+                href="https://tost000.github.io/meme_store/"
                 ><img
                   class="Project_slide"
                   src="assets/sec4.png"
@@ -68,7 +79,9 @@
             </div>
             <div class="swiper-slide">
               <a
-                class="Project_slide" target="_blank" href="https://tost000.github.io/FinallyProject/"
+                class="Project_slide"
+                target="_blank"
+                href="https://tost000.github.io/FinallyProject/"
                 ><img
                   class="Project_slide"
                   src="assets/sec5.png"
@@ -79,7 +92,20 @@
           <div class="swiper-pagination"></div>
         </div>
       </section>
-      <section class="About_me"></section>
+      <section class="About_me" id="About_me">
+        <h3>
+          Меня зовут Тимур. Я занимаюсь разработкой современных сайтов и
+          приложений.
+        </h3>
+        <div>
+          <img src="assets/cago.jpeg" alt="penguin Cago" />
+          <h3>
+            Где живу: Шведция <br />
+            Возраст: 13<br />
+            Дата рождения: 2011<br />
+          </h3>
+        </div>
+      </section>
     </main>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
