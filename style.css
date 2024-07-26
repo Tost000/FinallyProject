@@ -201,3 +201,8 @@ header {
   height: 100px;
   background-color: #8726e5;
 }
+.About_me {
+  display: flex;
+  width: 650px;
+  height: 350px;
+}
