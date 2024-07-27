@@ -10,8 +10,6 @@ const nav_btn_project = document.getElementById("nav_btn_project");
 const nav_btn_about = document.getElementById("nav_btn_about");
 
 window.onscroll = function () {
-  let h = document.documentElement.clientHeight;
-  console.log(window.scrollY);
   if (window.scrollY <= 100) {
     nav_btn_about.classList.remove("active");
     nav_btn_project.classList.remove("active");

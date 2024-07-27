@@ -201,8 +201,10 @@ header {
   height: 100px;
   background-color: #8726e5;
 }
-.About_me {
-  display: flex;
+.About_Tim {
   width: 650px;
   height: 350px;
+}
+.Im_Tim {
+  margin: 0px;
 }

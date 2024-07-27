@@ -1,0 +1,19 @@
+@media screen and (max-width: 800px) {
+  .Project_slide {
+    width: 55%;
+    height: 32%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .initial {
+    left: 0px;
+  }
+  .nav_btn {
+    margin: 10px 10px 0px 10px;
+  }
+  .initial {
+    font-weight: 700;
+    line-height: 60px;
+    left: 15px;
+  }
+}
