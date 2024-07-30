@@ -17,3 +17,51 @@
     left: 15px;
   }
 }
+@media screen and (max-width: 600px) {
+  .initial {
+    display: none;
+  }
+  .preview {
+    transform: scale(0.7);
+  }
+  .Project_slide {
+    width: 72%;
+    height: 31%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .preview {
+    transform: scale(0.5);
+    flex-wrap: nowrap;
+  }
+  .Project_slide {
+    width: 72%;
+    height: 31%;
+  }
+  .nav_btn {
+    width: 120px;
+    height: 30px;
+  }
+  main {
+    height: 400px;
+  }
+  .Project_slide {
+    width: 60%;
+    height: 21%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nav_btn {
+    width: 100px;
+  }
+  main {
+    height: 350px;
+  }
+  .Project_slide {
+    width: 60%;
+    height: 21%;
+  }
+  header {
+    height: 50px;
+  }
+}
