@@ -64,4 +64,7 @@
   header {
     height: 50px;
   }
+  .fix {
+    display: none;
+  }
 }
