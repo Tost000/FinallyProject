@@ -26,3 +26,15 @@ window.onscroll = function () {
     nav_btn_main.classList.remove("active");
   }
 };
+const burgerMenu = document.getElementById("burgerMenu");
+const mobile = document.getElementById("mobile");
+const burgerMenuActive = document.getElementById("burgerMenuActive");
+const nav_btn = document.getElementsByClassName("nav_btn");
+
+function mobileMenu() {
+  burgerMenu.classList.toggle("hide");
+  mobile.classList.toggle("hide");
+}
+
+burgerMenu.addEventListener("click", mobileMenu);
+burgerMenuActive.addEventListener("click", mobileMenu);

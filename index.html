@@ -16,9 +16,53 @@
     <header>
       <nav>
         <h2 class="initial">TC</h2>
-        <a class="nav_btn active" href="#" id="nav_btn_main">Главная</a>
-        <a class="nav_btn" href="#project" id="nav_btn_project">Проекты</a>
-        <a class="nav_btn" href="#About_me" id="nav_btn_about">Обо мне</a>
+        <a class="nav_btn active nav_btn_desc" href="#" id="nav_btn_main"
+          >Главная</a
+        >
+        <a class="nav_btn nav_btn_desc" href="#project" id="nav_btn_project"
+          >Проекты</a
+        >
+        <a class="nav_btn nav_btn_desc" href="#About_me" id="nav_btn_about"
+          >Обо мне</a
+        >
+        <button class="burgerMenu" id="burgerMenu">
+          <img
+            class="burgerMenuImg"
+            src="assets/hamburger.png"
+            alt="кнопка меню"
+          />
+        </button>
+      </nav>
+      <nav class="mobile hide" id="mobile">
+        <h2 class="initial">TC</h2>
+        <a
+          class="nav_btn active"
+          href="#"
+          id="nav_btn_main"
+          onclick="mobileMenu()"
+          >Главная</a
+        >
+        <a
+          class="nav_btn"
+          href="#project"
+          id="nav_btn_project"
+          onclick="mobileMenu()"
+          >Проекты</a
+        >
+        <a
+          class="nav_btn"
+          href="#About_me"
+          id="nav_btn_about"
+          onclick="mobileMenu()"
+          >Обо мне</a
+        >
+        <button class="burgerMenu" id="burgerMenuActive">
+          <img
+            class="burgerMenuImg"
+            src="assets/hamburger.png"
+            alt="кнопка меню"
+          />
+        </button>
       </nav>
       <!-- в js делать кнопку активной если нажато -->
     </header>
@@ -94,22 +138,26 @@
         </div>
       </section>
       <section class="About_me" id="About_me">
-        <!-- <div class="About_Tim">
+        <div class="About_Tim">
           <div class="Hello_I_Tim">
             <h3 class="Im_Tim">
               Меня зовут Тимур. Я занимаюсь разработкой современных сайтов и
-              приложений.
+              приложений. <br />
+              Мне нравится создавать интересные и современные проекты.
             </h3>
           </div>
+          <div class="Tim_Photo_and_Tim_photo_text"></div>
           <div class="Tim_Photo">
             <img src="assets/cago.jpeg" alt="penguin Cago" />
+          </div>
+          <div class="Tim_Photo_text">
             <h3>
               Где живу: Шведция <br />
               Возраст: 13<br />
               Дата рождения: 2011<br />
             </h3>
           </div>
-        </div> -->
+        </div>
       </section>
     </main>
     <footer></footer>
