@@ -1,3 +1,6 @@
+* {
+  outline: 1px solid black;
+}
 @media screen and (max-width: 800px) {
   .Project_slide {
     width: 55%;
@@ -7,7 +10,21 @@
     display: none;
   }
 }
+@media screen and (max-width: 750px) {
+  .Tim_Photo_and_Tim_photo_text {
+    padding-left: 60px;
+  }
+  .initial {
+    left: 20px;
+  }
+}
 @media screen and (max-width: 700px) {
+  .preview {
+    transform: scale(0.6);
+  }
+  .Tim_Photo_and_Tim_photo_text {
+    padding-left: 40px;
+  }
   .initial {
     left: 0px;
   }
@@ -18,6 +35,17 @@
     font-weight: 700;
     line-height: 60px;
     left: 15px;
+  }
+  .Im_Tim {
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .initial {
+    left: 5px;
+  }
+  .Tim_Photo_and_Tim_photo_text {
+    transform: scale(0.9);
   }
 }
 @media screen and (max-width: 600px) {
@@ -40,6 +68,18 @@
     width: 72%;
     height: 31%;
   }
+  .Tim_Photo_and_Tim_photo_text {
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .About_Tim {
+    transform: scale(0.9);
+  }
+  .preview {
+    transform: scale(0.6);
+    flex-wrap: nowrap;
+  }
 }
 @media screen and (max-width: 500px) {
   .initial {
@@ -55,10 +95,6 @@
     transform: scale(0.5);
     flex-wrap: nowrap;
   }
-  .Project_slide {
-    width: 72%;
-    height: 31%;
-  }
   .nav_btn {
     width: 120px;
     height: 30px;
@@ -69,6 +105,18 @@
   .Project_slide {
     width: 60%;
     height: 21%;
+  }
+  .cago {
+    display: none;
+  }
+  .About_Tim {
+    transform: scale(0.8);
+  }
+  .Im_Tim {
+    padding-left: 0px;
+  }
+  footer {
+    margin-top: 1205px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -96,5 +144,11 @@
   }
   .project {
     height: 450px;
+  }
+  .About_Tim {
+    transform: scale(0.75);
+  }
+  footer {
+    margin-top: 948px;
   }
 }

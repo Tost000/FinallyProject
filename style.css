@@ -172,13 +172,6 @@ main {
   background-repeat: no-repeat;
 }
 
-.About_me {
-  background-image: url(assets/Group216.svg);
-  height: 600px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .Project_slide {
   border-radius: 10px;
   margin-top: 40px;
@@ -223,11 +216,48 @@ header {
   align-items: center;
   justify-content: start;
 }
+.About_me {
+  display: flex;
+  background-image: url(assets/Group216.svg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
 .About_Tim {
   display: flex;
-  width: 400px;
+  width: 800px;
   height: 200px;
+  padding-top: 60px;
 }
 .Im_Tim {
   margin: 0px;
+  width: 400px;
+  margin: 0px;
+  padding-top: 60px;
+  padding-left: 85px;
+  color: #c488ff;
+}
+.Tim_Photo_and_Tim_photo_text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 90px;
+  padding-top: 30px;
+}
+.cago {
+  width: 150px;
+}
+
+footer {
+  margin-top: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #37014b;
+  height: 110px;
+}
+
+.contact_img {
+  display: flex;
 }
