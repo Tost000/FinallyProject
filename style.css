@@ -217,11 +217,10 @@ header {
   justify-content: start;
 }
 .About_me {
-  background-position-x: -500px;
   display: flex;
   background-image: url(assets/Group216.svg);
   height: 600px;
-  background-position-y: center;
+  background-position: center;
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
