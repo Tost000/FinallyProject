@@ -151,4 +151,7 @@
   footer {
     margin-top: 948px;
   }
+  .Im_Tim {
+    transform: scale(0.7);
+  }
 }
