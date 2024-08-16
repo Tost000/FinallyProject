@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: 1px solid black;
-}
+} */
 @media screen and (max-width: 800px) {
   .Project_slide {
     width: 55%;
@@ -16,6 +16,9 @@
   }
   .initial {
     left: 20px;
+  }
+  .Im_Tim {
+    padding-left: 40px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -70,6 +73,9 @@
   }
   .Tim_Photo_and_Tim_photo_text {
     padding-left: 5px;
+  }
+  .Im_Tim {
+    padding-left: 25px;
   }
 }
 @media screen and (max-width: 550px) {
